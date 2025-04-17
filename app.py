@@ -135,8 +135,3 @@ if uploaded_file:
                             st.error("Low match. Consider tailoring your resume more closely to the job.")
             except Exception as e:
                 st.error(f"Analysis failed: {e}")
-
-
-#Footer
-st.markdown("---")
-st.markdown("""<p style= 'text-align: center;' >Powered by <b>Streamlit</b> and <b>Google Gemini AI</b> | Developed by <a href="https://www.linkedin.com/in/dutta-sujoy/"  target="_blank" style='text-decoration: none; color: #FFFFFF'><b>Sujoy Dutta</b></a></p>""", unsafe_allow_html=True)
